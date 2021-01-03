@@ -12,11 +12,6 @@ lose = pygame.font.SysFont('Comic Sans MS', winw // 13)
 
 seed()
 
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
 WALLCOLOR = (255, 0, 0)
 def setFood():
     global ax, ay
